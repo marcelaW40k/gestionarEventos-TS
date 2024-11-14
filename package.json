@@ -1,0 +1,24 @@
+{
+  "name": "gestionareventos-ts",
+  "version": "1.0.0",
+  "description": "Crear un sistema de microservicios para la gestión de reservas de eventos y asistencia de usuarios, que se comuniquen entre sí mediante HTTP.",
+  "main": "index.ts",
+  "scripts": {
+   "dev": "NODE_ENV=development && nodemon -e ts,json --exec 'ts-node index.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.12",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0"
+  }
+}
